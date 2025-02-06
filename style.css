@@ -7,6 +7,7 @@
     font-family: "Josefin Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    line-height: 1;
 }
 
 html {
@@ -45,6 +46,18 @@ nav {
 nav>section {
     display: flex;
     column-gap: 2rem;
+}
+
+
+.using-for-loop {
+    max-width: 768px;
+    margin-inline: auto;
+    padding: 2rem;
+    padding-bottom: 0rem;
+}
+
+.fibonacci-number-input {
+    text-align: end;
 }
 
 footer {
