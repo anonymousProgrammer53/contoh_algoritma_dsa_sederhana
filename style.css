@@ -24,6 +24,10 @@ body {
     font-style: normal;
 }
 
+a {
+    cursor: pointer;
+}
+
 header {
     max-width: 768px;
     margin-inline: auto;
@@ -49,15 +53,13 @@ nav>section {
 }
 
 
-.using-for-loop {
+.using-for-loop,
+.using-recursive-function,
+.using-recursive-function-n {
     max-width: 768px;
     margin-inline: auto;
     padding: 2rem;
     padding-bottom: 0rem;
-}
-
-.fibonacci-number-input {
-    text-align: end;
 }
 
 footer {
